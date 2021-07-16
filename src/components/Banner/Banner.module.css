@@ -1,3 +1,21 @@
 .head {
-    background-color:rgb(22, 51, 75);
+  background-color: rgb(3, 112, 45);
+
+  @media screen and (max-height: 768px) {
+      height: 100px;
+  }
+}
+
+.marquee {
+  
+    background-color: rgb(14, 59, 12);
+
+    @media screen and (max-height: 768p x) {
+        height: 50px !important;
+    }
+  /* @media screen .img(max-width: 768px) {
+        transition: 0.8s all ease;
+        height: auto;
+        width: auto;
+      } */
 }
