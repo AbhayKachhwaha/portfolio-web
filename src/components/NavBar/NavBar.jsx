@@ -10,14 +10,17 @@ import {
   NavLinks,
   NavBtnLink,
 } from "./NavbarElements";
-import logo from '../../images/logo.png';
+import logo from "../../images/logo.png";
 
 export const NavBar = ({ toggle }) => {
   return (
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to="/">Abhay<img src={logo} alt='logo' height="100" width="120"/></NavLogo>
+          <NavLogo to="/">
+            Abhay
+            <img src={logo} alt="logo" height="100" width="120" />
+          </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
@@ -29,7 +32,15 @@ export const NavBar = ({ toggle }) => {
               <NavLinks to="portfolio">Portfolio</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="about">About</NavLinks>
+              <NavLinks
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                About
+              </NavLinks>
             </NavItem>
             <NavBtnLink to="/contactus">Contact Us</NavBtnLink>
           </NavMenu>

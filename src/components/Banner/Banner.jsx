@@ -18,20 +18,20 @@ const Head = () => {
     <Marquee
       className={styles.marquee}
       gradientColor={[3, 112, 45]}
-      speed={390}
+      speed={290}
       pauseOnClick={true}
     >
-      <img src={angularimg} alt="Angular" height="300" width="300" />
-      <img src={reactimg} alt="React" height="300" width="500" />
-      <img src={springbootimg} alt="Spring Boot" height="300" width="600" />
-      <img src={gitimg} alt="GitHub" height="300" width="300" />
-      <img src={javaimg} alt="Java" height="300" width="500" />
-      <img src={jenkinsimg} alt="Jenkins" height="300" width="200" />
-      <img src={mysqlimg} alt="My SQL" height="300" width="300" />
-      <img src={oracle} alt="Oracle" height="300" width="300" />
+      <img src={angularimg} alt="Angular" height="200" width="200" />
+      <img src={reactimg} alt="React" height="200" width="400" />
+      <img src={springbootimg} alt="Spring Boot" height="200" width="500" />
+      <img src={gitimg} alt="GitHub" height="200" width="200" />
+      <img src={javaimg} alt="Java" height="200" width="400" />
+      <img src={jenkinsimg} alt="Jenkins" height="200" width="100" />
+      <img src={mysqlimg} alt="My SQL" height="200" width="200" />
+      <img src={oracle} alt="Oracle" height="200" width="200" />
       <img src={mavenimg} alt="Maven" height="100" width="400" />
       <img src={pwa} alt="PWA" height="200" width="400" />
-      <img src={rest} alt="Rest API" height="300" width="350" />
+      <img src={rest} alt="Rest API" height="200" width="250" />
     </Marquee>
     // </div>
   );
