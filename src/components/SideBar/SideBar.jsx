@@ -9,8 +9,15 @@ import {
   SidebarRoute,
   SideBtnWrap,
 } from "./SideBarElements";
+import {animateScroll} from "react-scroll";
 
-const SideBar = ({isOpen, toggle}) => {
+const SideBar = ({ isOpen, toggle }) => {
+
+  const onClickFunction = () => {
+    toggle();
+    animateScroll.scrollToTop();
+  };
+
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
       <Icon onClick={toggle}>
@@ -18,9 +25,36 @@ const SideBar = ({isOpen, toggle}) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="about" onClick={toggle}>Home</SidebarLink>
-          <SidebarLink to="portfolio" onClick={toggle}>Portfolio</SidebarLink>
-          <SidebarLink to="about" onClick={toggle}>About</SidebarLink>
+          <SidebarLink
+            to="home"
+            onClick={onClickFunction}
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Home
+          </SidebarLink>
+          <SidebarLink
+            to="portfolio"
+            onClick={toggle}
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Portfolio
+          </SidebarLink>
+          <SidebarLink
+            to="about"
+            onClick={toggle}
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            About
+          </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
           <SidebarRoute to="/contactus">Contact Us</SidebarRoute>

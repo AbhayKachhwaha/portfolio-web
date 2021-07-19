@@ -10,6 +10,7 @@ import {
   NavLinks,
   NavBtnLink,
 } from "./NavbarElements";
+import { animateScroll } from "react-scroll";
 import logo from "../../images/logo.png";
 
 export const NavBar = ({ toggle }) => {
@@ -26,7 +27,16 @@ export const NavBar = ({ toggle }) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="home">Home</NavLinks>
+              <NavLinks
+                to="home"
+                onClick={animateScroll.scrollToTop}
+                spy={true}
+                smooth={true}
+                offset={-80}
+                duration={500}
+              >
+                Home
+              </NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="portfolio">Portfolio</NavLinks>
@@ -36,7 +46,7 @@ export const NavBar = ({ toggle }) => {
                 to="about"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-80}
                 duration={500}
               >
                 About

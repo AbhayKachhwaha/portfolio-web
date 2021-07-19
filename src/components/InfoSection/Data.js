@@ -1,4 +1,4 @@
-export const aboutdata = {
+export const infodata = {
     id: 'about',
     lightBg: false,
     lightText: true,
