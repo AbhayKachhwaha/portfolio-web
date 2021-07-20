@@ -14,10 +14,13 @@ const Home = () => {
 
   return (
     <>
-      <SideBar isOpen={isOpen} toggle={toggle} />
+      <SideBar isOpen={isOpen} toggle={toggle}/>
       <NavBar toggle={toggle}/>
       <HeroSection />
-      <InfoSection {...infodata}/>
+      {infodata.map((data)=>{
+        return <InfoSection {...data}/>
+      })}
+      
     </>
   );
 };

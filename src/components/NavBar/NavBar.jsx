@@ -39,7 +39,15 @@ export const NavBar = ({ toggle }) => {
               </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="portfolio">Portfolio</NavLinks>
+              <NavLinks
+                to="portfolio"
+                spy={true}
+                smooth={true}
+                offset={-80}
+                duration={500}
+              >
+                Portfolio
+              </NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks
