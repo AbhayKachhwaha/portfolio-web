@@ -5,14 +5,14 @@ import {
   InfoContainer,
   InfoWrapper,
   InfoRow,
-  Column1,
+  // Column1,
   TextWrapper,
   TopLine,
   Heading,
   Subtitle,
-  Column2,
-  ImgWrap,
-  Img,
+  // Column2,
+  // ImgWrap,
+  // Img,
   ButtonWrap,
 } from "./InfoElements";
 
