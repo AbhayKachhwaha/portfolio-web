@@ -17,7 +17,8 @@ const Head = () => {
   return (
     <Marquee
       className={styles.marquee}
-      gradientColor={[3, 112, 45]}
+      gradient={false}
+      // gradientColor={[3, 112, 45]}
       speed={290}
       pauseOnClick={true}
     >
