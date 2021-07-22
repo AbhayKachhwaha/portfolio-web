@@ -5,13 +5,15 @@ import { Link } from "react-scroll";
 
 export const Button = styled(Link)`
   border-radius: 50px;
-  background: ${ ( { primary } ) => { primary ? "#01BF71" : "#010606"} };
+  background: ${({ lightBg}) => ( lightBg ? '#010606' : '#fff')};
 
   white-space: nowrap;
-  padding: 14px 48px; 
-  color: ${({ lightBg }) => {
-    lightBg ? "#010606" : "#fff";
-  }};
+  padding: 14px 48px;
+
+  color: ${({ lightBg }) => (
+    lightBg ? '#fff':'#010606'
+  )};
+  
   font-size: ${({ fontBig }) => {
     fontBig ? "20px" : "16px";
   }};

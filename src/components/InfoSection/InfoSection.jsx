@@ -28,6 +28,7 @@ const InfoSection = ({
   marquee,
   dark,
   redirect,
+  smooth,
   image
 }) => {
   return (
@@ -44,7 +45,7 @@ const InfoSection = ({
                   <Button
                     to={redirect}
                     spy={true}
-                    smooth={true}
+                    smooth={smooth}
                     offset={-80}
                     duration={500}
                     lightBg={lightBg}

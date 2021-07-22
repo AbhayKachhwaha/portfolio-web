@@ -13,7 +13,8 @@ export const infodata = [
     marquee: true,
     dark: false,
     redirect: 'portfolio',
-    image: require('../../images/aboutme.svg')
+    smooth: true
+    // image: require('../../images/aboutme.svg')
   },
   {
     id: "portfolio",
@@ -28,6 +29,7 @@ export const infodata = [
     darkText: true,
     marquee: false,
     dark: true,
-    redirect: '/contactus'
+    redirect: '/contactus',
+    smooth: false
   }
 ];
