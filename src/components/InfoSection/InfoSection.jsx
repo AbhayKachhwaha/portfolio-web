@@ -4,7 +4,7 @@ import Banner from "../Banner/Banner";
 import {
   InfoContainer,
   InfoWrapper,
-  InfoRow,
+  // InfoRow,
   // Column1,
   TextWrapper,
   TopLine,
@@ -15,6 +15,7 @@ import {
   // Img,
   ButtonWrap,
 } from "./InfoElements";
+import Card from "../Cards/Card";
 
 const InfoSection = ({
   lightBg,
@@ -29,38 +30,40 @@ const InfoSection = ({
   dark,
   redirect,
   smooth,
-  image
+  image,
+  card
 }) => {
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id}>
         <InfoWrapper>
-          <InfoRow imgStart= {false}>
+          {/* <InfoRow imgStart={false}> */}
             {/* <Column1> */}
-              <TextWrapper>
-                <TopLine>{topline}</TopLine>
-                <Heading lightText={lightText}>{headline}</Heading>
-                <Subtitle darkText={darkText}>{description}</Subtitle>
-                <ButtonWrap>
-                  <Button
-                    to={redirect}
-                    spy={true}
-                    smooth={smooth}
-                    offset={-80}
-                    duration={500}
-                    lightBg={lightBg}
-                  >
-                    {buttonLabel}
-                  </Button>
-                </ButtonWrap>
-              </TextWrapper>
+            <TextWrapper card={true}>
+              <TopLine>{topline}</TopLine>
+              <Heading lightText={lightText}>{headline}</Heading>
+              {id==='portfolio' && <Card />}
+              {description && <Subtitle darkText={darkText}>{description}</Subtitle>}
+              <ButtonWrap>
+                <Button
+                  to={redirect}
+                  spy={true}
+                  smooth={smooth}
+                  offset={-80}
+                  duration={500}
+                  lightBg={lightBg}
+                >
+                  {buttonLabel}
+                </Button>
+              </ButtonWrap>
+            </TextWrapper>
             {/* </Column1> */}
             {/* <Column2>
               <ImgWrap>
                 <Img src={image} alt='aboutme'/>
               </ImgWrap>
             </Column2> */}
-          </InfoRow>
+          {/* </InfoRow> */}
         </InfoWrapper>
         {marquee && <Banner />}
       </InfoContainer>

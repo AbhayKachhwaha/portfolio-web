@@ -30,6 +30,7 @@ export const infodata = [
     marquee: false,
     dark: true,
     redirect: '/contactus',
-    smooth: false
+    smooth: false,
+    card: true
   }
 ];

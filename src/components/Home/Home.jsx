@@ -18,7 +18,7 @@ const Home = () => {
       <NavBar toggle={toggle}/>
       <HeroSection />
       {infodata.map((data)=>{
-        return <InfoSection {...data}/>
+        return <InfoSection {...data} key={data.id}/>
       })}
       
     </>
