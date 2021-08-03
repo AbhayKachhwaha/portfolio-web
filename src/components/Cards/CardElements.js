@@ -13,9 +13,9 @@ export const ProjectList = styled.ul`
   padding: 0px;
   text-align: center;
   justify-content: center;
-  flex-wrap: wrap;
+  // flex-wrap: wrap;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1370px) {
     flex-direction: column;
   }
 `;
@@ -24,7 +24,7 @@ export const ProjectItem = styled.li`
   height: 350px;
   border: 2px solid black;
   border-radius: 8px;
-  flex-basis: 21%;
+  // flex-basis: 21%;
   padding: 0px 0px 10px 0px;
   margin-right: 50px;
 
@@ -34,7 +34,7 @@ export const ProjectItem = styled.li`
   background-color: #253866;
   overflow: hidden;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1370px) {
     margin-right: 0px;
 
     margin-bottom: 50px;
