@@ -32,15 +32,18 @@ const Card = () => {
         </ProjectItem>
         <ProjectItem>
           <ProjectCard>
-            <a
-              href="https://weatherpwareact99.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={projectimg} alt="projectImg" />
-            </a>
+            <ProjectLink>
+              <a
+                href="https://weatherpwareact99.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={projectimg} alt="projectImg" />
+              </a>
+            </ProjectLink>
             <ProjectContainer>
               <h4>Web Application PWA</h4>
+              <p>A weather report application progressive web app</p>
             </ProjectContainer>
           </ProjectCard>
         </ProjectItem>

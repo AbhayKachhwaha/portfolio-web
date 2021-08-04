@@ -4,7 +4,7 @@ export const CardWrapper = styled.div`
   padding-left: 0px;
   width: 100%;
   height: 100%;
-  background-color: #253866;
+  background-color: #EEEEFF;
 `;
 
 export const ProjectList = styled.ul`
@@ -31,7 +31,7 @@ export const ProjectItem = styled.li`
   :last-child {
     margin-right: 0px;
   }
-  background-color: #253866;
+  background-color: black;
   overflow: hidden;
 
   @media screen and (max-width: 1370px) {
@@ -45,8 +45,25 @@ export const ProjectItem = styled.li`
 `;
 
 export const ProjectCard = styled.div`
-  height: 210px;
+  // height: 210px;
   // width: 300px;
+
+  // img {
+  //   object-fit: contain;
+  //   height: 300px;
+  //   width: 300px;
+  //   transition: transform 1s;
+  //   top: 0px;
+
+  //   &:hover {
+  //     transform: scale(1.1);
+  //   }
+  // }
+`;
+
+export const ProjectLink = styled.div`
+  // height: 210px;
+  overflow: hidden;
 
   img {
     object-fit: contain;
@@ -56,14 +73,8 @@ export const ProjectCard = styled.div`
     top: 0px;
 
     &:hover {
-      transform: scale(1.5);
+      transform: scale(1.3);
     }
-  }
-`;
-
-export const ProjectLink = styled.div`
-  height: 210px;
-
   a {
     display: inline-block;
   }
