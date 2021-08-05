@@ -1,0 +1,23 @@
+.projectlink {
+  overflow: hidden;
+}
+
+img:hover {
+  transform: scale(1.3);
+}
+
+img {
+  object-fit: contain;
+  /* height: 300px; */
+  width: 300px;
+  transition: transform 1s;
+  top: 0px;
+}
+
+.projectlink a {
+  display: inline-block;
+}
+
+.projectcontainer {
+  max-width: 300px;
+}
