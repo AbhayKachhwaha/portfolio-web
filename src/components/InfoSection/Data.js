@@ -13,8 +13,8 @@ export const infodata = [
     marquee: true,
     dark: false,
     redirect: 'portfolio',
-    smooth: true
-    // image: require('../../images/aboutme.svg')
+    smooth: true,
+    btnLink: false
   },
   {
     id: "portfolio",
@@ -31,6 +31,7 @@ export const infodata = [
     dark: true,
     redirect: '/contactus',
     smooth: false,
-    card: true
+    card: true,
+    btnLink: true
   }
 ];

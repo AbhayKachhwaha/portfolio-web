@@ -1,15 +1,18 @@
 .projectlink {
   overflow: hidden;
+  height: 200px;
+  background-size: fill;
+  
 }
 
-img:hover {
+.projectlink img:hover {
   transform: scale(1.3);
 }
 
-img {
-  object-fit: contain;
-  /* height: 300px; */
-  width: 300px;
+.projectlink img {
+  object-fit: fill;
+  max-width: 300px;
+  max-height: 300px;
   transition: transform 1s;
   top: 0px;
 }

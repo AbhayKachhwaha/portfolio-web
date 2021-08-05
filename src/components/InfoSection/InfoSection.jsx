@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "../ButtonElement";
+import { Button, ButtonLink } from "../ButtonElement";
 import Banner from "../Banner/Banner";
 import {
   InfoContainer,
@@ -31,20 +31,24 @@ const InfoSection = ({
   redirect,
   smooth,
   image,
-  card
+  card,
+  btnLink,
 }) => {
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id}>
         <InfoWrapper>
           {/* <InfoRow imgStart={false}> */}
-            {/* <Column1> */}
-            <TextWrapper card={true}>
-              <TopLine>{topline}</TopLine>
-              <Heading lightText={lightText}>{headline}</Heading>
-              {id==='portfolio' && <Card />}
-              {description && <Subtitle darkText={darkText}>{description}</Subtitle>}
-              <ButtonWrap>
+          {/* <Column1> */}
+          <TextWrapper card={true}>
+            <TopLine>{topline}</TopLine>
+            <Heading lightText={lightText}>{headline}</Heading>
+            {id === "portfolio" && <Card />}
+            {description && (
+              <Subtitle darkText={darkText}>{description}</Subtitle>
+            )}
+            <ButtonWrap>
+              {!btnLink && (
                 <Button
                   to={redirect}
                   spy={true}
@@ -55,10 +59,24 @@ const InfoSection = ({
                 >
                   {buttonLabel}
                 </Button>
-              </ButtonWrap>
-            </TextWrapper>
-            {/* </Column1> */}
-            {/* <Column2>
+              )}
+
+              {btnLink && (
+                <ButtonLink
+                  to={redirect}
+                  spy={true}
+                  smooth={smooth}
+                  offset={-80}
+                  duration={500}
+                  lightBg={lightBg}
+                >
+                  {buttonLabel}
+                </ButtonLink>
+              )}
+            </ButtonWrap>
+          </TextWrapper>
+          {/* </Column1> */}
+          {/* <Column2>
               <ImgWrap>
                 <Img src={image} alt='aboutme'/>
               </ImgWrap>

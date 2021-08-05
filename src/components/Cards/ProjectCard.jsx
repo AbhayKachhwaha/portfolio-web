@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProjectCard.css";
 
-const ProjectCard2 = (props) => {
+const ProjectCard = (props) => {
   return (
     <div className="projectcard">
       <div className="projectlink">
@@ -17,4 +17,4 @@ const ProjectCard2 = (props) => {
   );
 };
 
-export default ProjectCard2;
+export default ProjectCard;

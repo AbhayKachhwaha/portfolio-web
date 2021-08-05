@@ -1,11 +1,19 @@
-import projectimg from "../../images/Project1.jpg";
+import weatherprojectimg from "../../images/Project1.jpg";
+import chatprojectimg from '../../images/chatproject.PNG';
 
 export const projectData = [
   {
     link: "https://weatherpwareact99.netlify.app/",
-    imgsrc: projectimg,
+    imgsrc: weatherprojectimg,
     alttext: "Weather PWA",
-    projectTitle: "Weather React PWA",
+    projectTitle: "Weather PWA",
     projectDescription: "A weather report application progressive web app"
+  }, 
+  {
+    link: "https://chat-app-akachhwaha.netlify.app/",
+    imgsrc: chatprojectimg,
+    alttext: "Chat Application",
+    projectTitle: "Chat Application",
+    projectDescription: "A chatting website with multimedia"
   }
 ];
