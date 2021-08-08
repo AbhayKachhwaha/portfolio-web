@@ -15,5 +15,68 @@ export const projectData = [
     alttext: "Chat Application",
     projectTitle: "Chat Application",
     projectDescription: "A chatting website with multimedia"
+  },
+  {
+    link: "https://chat-app-akachhwaha.netlify.app/",
+    imgsrc: chatprojectimg,
+    alttext: "Chat Application",
+    projectTitle: "Chat Application",
+    projectDescription: "A chatting website with multimedia"
+  },
+  {
+    link: "https://chat-app-akachhwaha.netlify.app/",
+    imgsrc: chatprojectimg,
+    alttext: "Chat Application",
+    projectTitle: "Chat Application",
+    projectDescription: "A chatting website with multimedia"
+  },
+  {
+    link: "https://chat-app-akachhwaha.netlify.app/",
+    imgsrc: chatprojectimg,
+    alttext: "Chat Application",
+    projectTitle: "Chat Application",
+    projectDescription: "A chatting website with multimedia"
+  },
+  {
+    link: "https://chat-app-akachhwaha.netlify.app/",
+    imgsrc: chatprojectimg,
+    alttext: "Chat Application",
+    projectTitle: "Chat Application",
+    projectDescription: "A chatting website with multimedia"
+  },
+  {
+    link: "https://chat-app-akachhwaha.netlify.app/",
+    imgsrc: chatprojectimg,
+    alttext: "Chat Application",
+    projectTitle: "Chat Application",
+    projectDescription: "A chatting website with multimedia"
+  },
+  {
+    link: "https://chat-app-akachhwaha.netlify.app/",
+    imgsrc: chatprojectimg,
+    alttext: "Chat Application",
+    projectTitle: "Chat Application",
+    projectDescription: "A chatting website with multimedia"
+  },
+  {
+    link: "https://chat-app-akachhwaha.netlify.app/",
+    imgsrc: chatprojectimg,
+    alttext: "Chat Application",
+    projectTitle: "Chat Application",
+    projectDescription: "A chatting website with multimedia"
+  },
+  {
+    link: "https://chat-app-akachhwaha.netlify.app/",
+    imgsrc: chatprojectimg,
+    alttext: "Chat Application",
+    projectTitle: "Chat Application",
+    projectDescription: "A chatting website with multimedia"
+  },
+  {
+    link: "https://chat-app-akachhwaha.netlify.app/",
+    imgsrc: chatprojectimg,
+    alttext: "Chat Application",
+    projectTitle: "Chat Application",
+    projectDescription: "A chatting website with multimedia"
   }
 ];
