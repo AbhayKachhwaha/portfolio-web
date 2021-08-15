@@ -46,17 +46,6 @@ export const NavBar = ({ toggle }) => {
             </NavItem>
             <NavItem>
               <NavLinks
-                to="portfolio"
-                spy={true}
-                smooth={true}
-                offset={-80}
-                duration={500}
-              >
-                Portfolio
-              </NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks
                 to="about"
                 spy={true}
                 smooth={true}
@@ -64,6 +53,17 @@ export const NavBar = ({ toggle }) => {
                 duration={500}
               >
                 About
+              </NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks
+                to="portfolio"
+                spy={true}
+                smooth={true}
+                offset={-80}
+                duration={500}
+              >
+                Portfolio
               </NavLinks>
             </NavItem>
             <NavBtnLink to="/contactus">Contact Us</NavBtnLink>
