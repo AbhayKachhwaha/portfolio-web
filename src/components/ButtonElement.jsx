@@ -27,7 +27,7 @@ export const Button = styled(Link)`
   transition: all 0.2s ease-in-out;
 
   &:hover {
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
     background: ${({ primary }) => (primary ? "#fff" : "#01BF71")};
   }
 `;
@@ -52,7 +52,9 @@ cursor: pointer;
 display: flex;
 justify-content: center;
 align-items: center;
-transition: all 0.2s ease-in-out;
+transition: all 0.3s ease-in-out;
+
+text-decoration: none;
 
 &:hover {
   transition: all 0.2s ease-in-out;

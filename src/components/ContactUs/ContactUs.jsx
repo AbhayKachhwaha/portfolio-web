@@ -10,7 +10,7 @@ const ContactUs = () => {
   return (
     <div className="contact-us">
       <h1>Contact Me</h1>
-      <form onSubmit={submitHandler}>
+      <form onSubmit={submitHandler} id="contact-form">
         <div className="form-control">
           <label>
             Name
@@ -26,12 +26,14 @@ const ContactUs = () => {
           </label>
           <label>
             Project Description
-            <input type="text" name="project" maxlength="500" />
+            {/* <input type="text" name="project" maxlength="500" /> */}
+            <textarea form="contact-form" rows="7" name="description" />
           </label>
           <div className="button-wrap">
-            <Button type="submit" to="#" lightBg={false} primary={false}>
-              Submit
-            </Button>
+              <Button type="submit" to="#" lightBg={false} primary={false}>
+                Submit
+              </Button>
+              <Button to="/">Cancel</Button>
           </div>
         </div>
       </form>
