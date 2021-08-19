@@ -9,8 +9,8 @@
 .marquee {
   
     background-color: rgb(15, 88, 58);
-
-    @media screen and (max-height: 768p x) {
+    
+    @media screen and (max-height: 768px) {
         height: 50px !important;
     }
   /* @media screen .img(max-width: 768px) {

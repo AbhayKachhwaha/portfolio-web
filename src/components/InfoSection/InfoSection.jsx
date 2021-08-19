@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, ButtonLink } from "../ButtonElement";
-import Banner from "../Banner/Banner";
+// import Banner from "../Banner/Banner";
 import {
   InfoContainer,
   InfoWrapper,
@@ -16,6 +16,7 @@ import {
   ButtonWrap,
 } from "./InfoElements";
 import Card from "../Cards/Card";
+// import styles from "./InfoSection.css";
 
 const InfoSection = ({
   lightBg,
@@ -82,8 +83,9 @@ const InfoSection = ({
               </ImgWrap>
             </Column2> */}
           {/* </InfoRow> */}
+          {/* {marquee && <Banner className={styles.marquee} />} */}
         </InfoWrapper>
-        {marquee && <Banner />}
+        {/* {marquee && <Banner />} */}
       </InfoContainer>
     </>
   );
