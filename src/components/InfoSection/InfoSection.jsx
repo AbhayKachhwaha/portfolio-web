@@ -16,7 +16,6 @@ import {
   ButtonWrap,
 } from "./InfoElements";
 import Card from "../Cards/Card";
-// import styles from "./InfoSection.css";
 
 const InfoSection = ({
   lightBg,

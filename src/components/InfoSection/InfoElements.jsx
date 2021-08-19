@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const InfoContainer = styled.div`
   color: #fff;
   background: ${({ lightBg }) => (lightBg ? "#EEEEFF" : "#010606")};
-  height: auto;
+  min-height: 450px;
+  height: ${({ id }) => (id === "about" ? "100vh" : "auto")};
   @media screen and (max-width: 768px) {
     padding: 0px 0px 0px;
   }
@@ -30,9 +31,13 @@ export const InfoRow = styled.div`
   display: grid;
   // grid-auto-columns: minmax(auto, 1fr);
   align-items: center;
-  // grid-template-areas: ${({ imgStart }) =>imgStart ? `'col2 col1'` : `'col1 col2'`};
+  // grid-template-areas: ${({ imgStart }) =>
+    imgStart ? `'col2 col1'` : `'col1 col2'`};
 
-  // @media screen and (max-width: 768px) { grid-template-areas: ${({ imgStart }) => imgStart ? `'col1 col2'` : `'col1 col1' 'col1 col2'`};}`;
+  // @media screen and (max-width: 768px) { grid-template-areas: ${({
+    imgStart,
+  }) => (imgStart ? `'col1 col2'` : `'col1 col1' 'col1 col2'`)};}
+`;
 
 export const Column1 = styled.div`
   margin-bottom: 15px;
@@ -48,7 +53,7 @@ export const Column2 = styled.div`
 
 export const TextWrapper = styled.div`
   // max-width: 540px;
-  max-width: ${({ card }) => (card ? '' : '540px')};
+  max-width: ${({ card }) => (card ? "" : "540px")};
   padding-top: 0;
   padding-bottom: 60px;
 `;

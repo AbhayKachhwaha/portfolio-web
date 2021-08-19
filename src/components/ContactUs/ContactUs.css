@@ -12,7 +12,8 @@
   border-radius: 20px;
   border-color: black;
 
-  max-height: 860px;
+  max-height: 600px;
+
   width: 100%;
   margin-right: auto;
   margin-left: auto;
@@ -23,9 +24,15 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
 
-  @media screen and (min-width: 325px) {
-    height: 100%;
+@media only screen and (max-height: 856px) {
+  .contact-us {
+    height: 90vh;
+  }
+
+  .button-wrap {
+    padding-top: 2vh;
   }
 }
 
