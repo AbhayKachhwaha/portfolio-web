@@ -56,7 +56,7 @@ const SideBar = ({ isOpen, toggle }) => {
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to="/contactus">Contact Us</SidebarRoute>
+          <SidebarRoute to="/contactus">Contact Me</SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

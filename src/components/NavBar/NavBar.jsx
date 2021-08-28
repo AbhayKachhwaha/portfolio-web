@@ -66,7 +66,7 @@ export const NavBar = ({ toggle }) => {
                 Portfolio
               </NavLinks>
             </NavItem>
-            <NavBtnLink to="/contactus">Contact Us</NavBtnLink>
+            <NavBtnLink to="/contactus">Contact Me</NavBtnLink>
           </NavMenu>
         </NavbarContainer>
       </Nav>

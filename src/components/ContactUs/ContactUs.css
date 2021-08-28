@@ -28,7 +28,7 @@
 
 @media only screen and (max-height: 856px) {
   .contact-us {
-    height: 90vh;
+    height: 95vh;
   }
 
   .button-wrap {
@@ -94,4 +94,8 @@ body {
 .button-wrap {
   display: flex;
   justify-content: space-between;
+}
+
+small {
+  color: rgb(255, 4, 4);
 }
