@@ -18,7 +18,7 @@ const HeroSection = () => {
             </HeroBg>
             <HeroContent>
                 <HeroH1>Choose me for your business needs</HeroH1>
-                <HeroP>I will provide solutions for your business needs in an efficient manner</HeroP>
+                <HeroP>I will provide solutions for your business ideas in an efficient manner</HeroP>
                 {/* <HeroBtnWrapper>
                     <Button to='contactus' onMouseEnter={onHover} onMouseLeave={onHover}>
                         Contact Us {hover ? <ArrowForward /> : <ArrowRight />}
