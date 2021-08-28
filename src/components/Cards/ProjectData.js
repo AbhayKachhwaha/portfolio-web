@@ -7,7 +7,7 @@ export const projectData = [
     imgsrc: weatherprojectimg,
     alttext: "Weather PWA",
     projectTitle: "Weather PWA",
-    projectDescription: "A weather report application progressive web app"
+    projectDescription: "A weather report progressive web application"
   }, 
   {
     link: "https://chat-app-akachhwaha.netlify.app/",
