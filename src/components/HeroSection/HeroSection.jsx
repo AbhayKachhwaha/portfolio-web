@@ -1,4 +1,3 @@
-// import React, {useState} from 'react';
 import {
   HeroContainer,
   HeroBg,
@@ -8,15 +7,9 @@ import {
   HeroP,
 } from "./HeroElements";
 import Video from "../../videos/video.m4v";
-// import {Button} from '../../components/ButtonElement';
+import { Button } from "../ButtonElement";
 
 const HeroSection = () => {
-  // const [hover, setHover] = useState(false);
-
-  //  const onHover = () => {
-  //     setHover(!hover);
-  //  };
-
   return (
     <HeroContainer>
       <HeroBg>
@@ -28,11 +21,9 @@ const HeroSection = () => {
           I will provide solutions for your business ideas in an efficient
           manner
         </HeroP>
-        {/* <HeroBtnWrapper>
-                    <Button to='contactus' onMouseEnter={onHover} onMouseLeave={onHover}>
-                        Contact Us {hover ? <ArrowForward /> : <ArrowRight />}
-                    </Button>
-                </HeroBtnWrapper> */}
+        <Button to="about" smooth={true} lightBg={true}>
+          About Me
+        </Button>
       </HeroContent>
     </HeroContainer>
   );

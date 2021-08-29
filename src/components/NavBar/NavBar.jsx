@@ -12,10 +12,9 @@ import {
 } from "./NavbarElements";
 import { animateScroll } from "react-scroll";
 import logo from "../../images/logo.png";
-import Image from '../Image/Image';
+import Image from "../Image/Image";
 
 export const NavBar = ({ toggle }) => {
-
   const reload = () => {
     window.location.reload();
     animateScroll.scrollToTop();
@@ -26,7 +25,7 @@ export const NavBar = ({ toggle }) => {
         <NavbarContainer>
           <NavLogo onClick={reload}>
             Abhay
-            <Image src={logo} alt="logo" height="100"/>
+            <Image src={logo} alt="logo" height="100" />
           </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />

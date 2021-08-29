@@ -15,12 +15,7 @@ import Image from "../Image/Image";
 
 const Head = () => {
   return (
-    <Marquee
-      className={styles.marquee}
-      gradient={false}
-      // gradientColor={[3, 112, 45]}
-      speed={290}
-    >
+    <Marquee className={styles.marquee} gradient={false} speed={290}>
       <Image src={angularimg} alt="Angular" />
       <Image src={reactimg} alt="React" />
       <Image src={springbootimg} alt="Spring Boot" />
