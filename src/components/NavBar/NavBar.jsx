@@ -19,6 +19,7 @@ export const NavBar = ({ toggle }) => {
     window.location.reload();
     animateScroll.scrollToTop();
   };
+
   return (
     <>
       <Nav>
@@ -34,7 +35,7 @@ export const NavBar = ({ toggle }) => {
             <NavItem>
               <NavLinks
                 to="home"
-                onClick={animateScroll.scrollToTop}
+                // onClick={animateScroll.scrollToTop}
                 spy={true}
                 smooth={true}
                 offset={-80}

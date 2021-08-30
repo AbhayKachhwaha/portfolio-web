@@ -15,14 +15,13 @@ const Home = () => {
 
   return (
     <>
-      <SideBar isOpen={isOpen} toggle={toggle}/>
-      <NavBar toggle={toggle}/>
+      <SideBar isOpen={isOpen} toggle={toggle} />
+      <NavBar toggle={toggle} />
       <HeroSection />
       <Banner />
-      {infodata.map((data)=>{
-        return <InfoSection {...data} key={data.id}/>
+      {infodata.map((data) => {
+        return <InfoSection {...data} key={data.id} />;
       })}
-      
     </>
   );
 };

@@ -11,7 +11,7 @@ import { Button } from "../ButtonElement";
 
 const HeroSection = () => {
   return (
-    <HeroContainer>
+    <HeroContainer id='home'>
       <HeroBg>
         <VideoBg autoPlay loop muted src={Video} type="video/m4v" />
       </HeroBg>
