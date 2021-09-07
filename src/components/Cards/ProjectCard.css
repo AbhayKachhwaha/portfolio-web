@@ -2,7 +2,6 @@
   overflow: hidden;
   height: 200px;
   background-size: fill;
-  
 }
 
 .projectlink img:hover {
@@ -10,9 +9,9 @@
 }
 
 .projectlink img {
-  object-fit: fill;
   max-width: 300px;
-  max-height: 300px;
+  height: 200px;
+  object-fit: fill;
   transition: transform 1s;
   top: 0px;
 }
