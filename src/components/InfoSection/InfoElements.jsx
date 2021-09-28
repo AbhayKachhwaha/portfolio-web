@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const InfoContainer = styled.div`
   color: #fff;
   background: ${({ lightBg }) => (lightBg ? "#EEEEFF" : "#010606")};
-  min-height: 450px;
+  // min-height: 450px;
+  min-height: 100vh;
   height: ${({ id }) => (id === "about" ? "100vh" : "auto")};
   @media screen and (max-width: 768px) {
     padding: 0px 0px 0px;

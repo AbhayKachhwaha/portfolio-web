@@ -16,9 +16,9 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/m4v" />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Choose me for your business needs</HeroH1>
+        <HeroH1>Welcome to my Portfolio Website</HeroH1>
         <HeroP>
-          I will provide solutions for your business ideas in an efficient
+          I can provide solutions and implement your business ideas in an efficient
           manner
         </HeroP>
         <Button to="about" smooth={true} lightBg={true}>
