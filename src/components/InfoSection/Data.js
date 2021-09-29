@@ -6,7 +6,7 @@ export const infodata = [
     lightTextDesc: true,
     topline: "About Me",
     headline: "Full Stack Developer",
-    description: "Hello! I am a full-stack developer with 3+ years of experience designing, implementing and deploying web applications, background stand-alone applications and ETL processes using technologies like Java, Python and Spring Boot with MySQL and Oracle database management systems.",
+    description: "Hello! I am a full-stack developer with 3+ years of experience designing, implementing and deploying web applications, background stand-alone applications, ETL processes and RESTful services using technologies like Java, Python and Spring Boot with MySQL and Oracle database management systems.",
     buttonLabel: "See My Work",
     primary: true,
     darkText: false,
