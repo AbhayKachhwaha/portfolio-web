@@ -22,6 +22,6 @@ export const projectData = [
     imgsrc: fooddelprojimg,
     alttext: "Food Delivery Application",
     projectTitle: "Food Delivery Application",
-    projectDescription: "A Food Delivery Application",
+    projectDescription: "A Food Delivery Application designed with REACT",
   },
 ];
