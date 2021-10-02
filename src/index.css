@@ -27,3 +27,7 @@ code {
   background: #01bf71;
   border-radius: 5px;
 }
+
+:hover::-webkit-scrollbar-thumb {
+  background: #02995a;
+}
