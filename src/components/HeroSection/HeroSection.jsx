@@ -18,8 +18,7 @@ const HeroSection = () => {
       <HeroContent>
         <HeroH1>Welcome to my Portfolio Website</HeroH1>
         <HeroP>
-          I can provide solutions and implement your business ideas in an efficient
-          manner
+          I provide online business solutions and implement ideas in an efficient manner
         </HeroP>
         <Button to="about" smooth={true} lightBg={true}>
           About Me
