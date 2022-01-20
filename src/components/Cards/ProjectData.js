@@ -1,8 +1,16 @@
 import weatherprojectimg from "../../images/Project1.jpg";
 import chatprojectimg from "../../images/chatproject.PNG";
 import fooddelprojimg from "../../images/foodDeliverApp.PNG";
+import blogwebimg from "../../images/blog-web.PNG";
 
 export const projectData = [
+  {
+    link: "https://blog-template-super.netlify.app/",
+    imgsrc: blogwebimg,
+    alttext: "Blog Website/Template",
+    projectTitle: "Blog Website/Template",
+    projectDescription: "A super-fast blogging website built using Modern Technologies with CMS",
+  },
   {
     link: "https://weatherpwareact99.netlify.app/",
     imgsrc: weatherprojectimg,

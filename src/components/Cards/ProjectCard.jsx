@@ -7,6 +7,11 @@ const ProjectCard = (props) => {
       <div className="projectlink">
         <a href={props.link} target="_blank" rel="noopener noreferrer">
           <img src={props.projectimg} alt={props.alttext} />
+          {/* <iframe
+            src={props.link}
+            title={props.projectTitle}
+            // style="border: none"
+          ></iframe> */}
         </a>
       </div>
       <div className="projectcontainer">
