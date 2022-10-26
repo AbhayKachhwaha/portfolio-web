@@ -12,6 +12,8 @@ import pwa from "../../images/pwa.png";
 import oracle from "../../images/oracle.png";
 import rest from "../../images/restapi.png";
 import flutter from "../../images/flutter.png";
+import android from "../../images/android.png";
+import ios from "../../images/ios.png";
 import Image from "../Image/Image";
 
 const Head = () => {
@@ -28,6 +30,8 @@ const Head = () => {
       <Image src={pwa} alt="PWA" />
       <Image src={rest} alt="Rest API" />
       <Image src={flutter} alt="Flutter" />
+      <Image src={android} alt="Android" />
+      <Image src={ios} alt="iOS" />
       <Image src={mavenimg} alt="Maven" height="100px" />
     </Marquee>
   );
