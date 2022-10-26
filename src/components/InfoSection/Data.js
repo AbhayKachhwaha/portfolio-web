@@ -6,14 +6,15 @@ export const infodata = [
     lightTextDesc: true,
     topline: "About Me",
     headline: "Full Stack Developer",
-    description: "Hello! I am a full-stack developer with 3+ years of experience designing, implementing and deploying web applications, background stand-alone applications, ETL processes and RESTful services using technologies like Java, Python and Spring Boot with SQL and NoSQL databases.",
+    description:
+      "Hello! I am a full-stack developer with 4+ years of experience designing, implementing, and deploying conventional web, automation, report generation, and notification applications, ETL processes, RESTful services, and cross-platform mobile applications utilizing technologies like Java, Dart/Flutter, HTML, CSS, JavaScript, ReactJS and Spring Boot with SQL and NoSQL databases. Additionally, I have nearly 2 years of experience assessing and consulting clients based on acceptance criteria, rules, database design, 3rd party APIs, server requirements, and system architecture.",
     buttonLabel: "See My Work",
     primary: true,
     darkText: false,
     dark: false,
-    redirect: 'portfolio',
+    redirect: "portfolio",
     smooth: true,
-    btnLink: false
+    btnLink: false,
   },
   {
     id: "portfolio",
@@ -27,9 +28,9 @@ export const infodata = [
     primary: true,
     darkText: true,
     dark: true,
-    redirect: '/contactus',
+    redirect: "/contactus",
     smooth: false,
     card: true,
-    btnLink: true
-  }
+    btnLink: true,
+  },
 ];
