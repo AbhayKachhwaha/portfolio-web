@@ -7,7 +7,7 @@ export const infodata = [
     topline: "About Me",
     headline: "Full Stack Developer",
     description:
-      "Hello! I am a full-stack developer with 4+ years of experience designing, implementing, and deploying conventional web, automation, report generation, and notification applications, ETL processes, RESTful services, and cross-platform mobile applications utilizing technologies like Java, Dart/Flutter, HTML, CSS, JavaScript, ReactJS and Spring Boot with SQL and NoSQL databases. Additionally, I have nearly 2 years of experience assessing and consulting clients based on acceptance criteria, rules, database design, 3rd party APIs, server requirements, and system architecture.",
+      "Hello! I am a full-stack developer with 4+ years of experience designing, implementing, and deploying conventional web, automation, report generation, and notification applications, ETL processes, RESTful services, and cross-platform mobile applications utilizing technologies like Java, Dart/Flutter, HTML, CSS, JavaScript, ReactJS and Spring Boot with SQL and NoSQL databases. Additionally, I have nearly 2 years of experience consulting clients based on acceptance criteria, rules, database design, 3rd party APIs, server requirements, and system architecture.",
     buttonLabel: "See My Work",
     primary: true,
     darkText: false,
