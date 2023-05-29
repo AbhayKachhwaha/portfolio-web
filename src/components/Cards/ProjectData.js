@@ -10,7 +10,7 @@ export const projectData = [
     alttext: "Blog Website/Template",
     projectTitle: "Blog Website/Template",
     projectDescription:
-      "A super-fast blogging website built using Modern Technologies with CMS",
+      "A super-fast blogging website built using React and GraphQL with CMS",
   },
   {
     link: "https://weatherpwareact99.netlify.app/",
